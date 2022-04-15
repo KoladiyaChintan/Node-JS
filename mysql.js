@@ -1,4 +1,3 @@
-const res = require('express/lib/response');
 const mysql = require('mysql')
 
 var connetion = mysql.createConnection({
