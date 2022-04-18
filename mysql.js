@@ -14,6 +14,5 @@ connetion.connect(function (err) {
     connetion.query(sql, function (err, result) {
         if (err) throw err;
         console.log(result);
-        // console.log(result);
     })
 })
