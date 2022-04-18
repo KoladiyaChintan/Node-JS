@@ -10,6 +10,7 @@ var connetion = mysql.createConnection({
     database: 'world',
 })
 
+
 app.get('/', function (req, res) {
     let sql = "SELECT * FROM CITY";
     connetion.query(sql, function (err, result) {
